@@ -1,20 +1,20 @@
 export const settings = {
-	name: 'Mahmood Ihab Khalil',
-	job: 'Full Stack Developer',
-	descriptionLong: `Hello, I'm Mahmood, a full stack developer with a passion for creating beautiful and
-    functional full stack websites and applications. I focus on technology design which includes
-    but is not limited to and in no order: Database design, Backend design, Frontend state design,
-    AB testing, CI/CD, and DevOps.`,
-	descriptionShort: `Hello, I'm Mahmood, a full stack developer passionate about crafting functional
-	websites and apps. I specialize in database, backend, frontend design, AB testing, CI/CD, and DevOps.`,
+	name: 'Mohab Mattar',
+	job: 'Photographer',
+	descriptionLong: `Hello, I'm Mohab, a photographer based in Cairo, Egypt. I love
+	to capture the beauty of the world around me, whether it's a car, a portrait, or a product.
+	I'm always looking for new opportunities to work with people and brands to create something beautiful.`,
+	descriptionShort: `Hello, I'm Mohab, a photographer based in Cairo, Egypt. I love
+	to capture the beauty of the world around me, whether it's a car, a portrait, or a product.
+	I'm always looking for new opportunities to work with people and brands to create something beautiful.`,
 	themes: {
 		light: 'retro',
 		dark: 'coffee'
 	},
 	links: {
-		github: 'https://github.com/MahmoodKhalil57',
-		linkedin: 'https://www.linkedin.com/in/mahmood-khalil',
-		instagram: 'https://www.instagram.com/mahmoodkhalil57/'
+		github: null,
+		linkedin: 'https://www.linkedin.com/in/mohab-mattar',
+		instagram: 'https://www.instagram.com/mohabster'
 	},
-	email: 'mahmoodIhabK@gmail.com'
+	email: 'MohabsterMattar@outlook.com'
 };
