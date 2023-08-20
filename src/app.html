@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+
+	<script>
+		const storageVersion = '0.0.1';
+		const storageVersionSynced = window.localStorage.getItem('storageVersion')
+			? window.localStorage.getItem('storageVersion') === storageVersion
+			: false;
+
+		if (!storageVersionSynced) {
+			window.localStorage.clear();
+			window.localStorage.setItem('storageVersion', storageVersion);
+		}
+
+		const isDark = window.localStorage.getItem('theme')
+			? window.localStorage.getItem('theme') === 'forest'
+			: window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+		if (isDark) {
+			window.localStorage.setItem('theme', 'forest');
+			window.document.documentElement.setAttribute('data-theme', 'forest');
+		} else {
+			window.localStorage.setItem('theme', 'garden');
+			window.document.documentElement.setAttribute('data-theme', 'garden');
+		}
+	</script>
+
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
