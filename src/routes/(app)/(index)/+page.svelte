@@ -5,7 +5,7 @@
 <div class="flex-col gap-6 px-2 sm:pb-40 flex-center stretch">
 	<div class="avatar">
 		<div class="rounded-full w-44">
-			<img alt="avatar" src="/avatar.jpeg" />
+			<img alt="avatar" src="/avatar.png" />
 		</div>
 	</div>
 	<div class="prose text-center">
