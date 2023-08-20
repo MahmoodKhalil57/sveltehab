@@ -19,15 +19,15 @@
 		}
 
 		const isDark = window.localStorage.getItem('theme')
-			? window.localStorage.getItem('theme') === 'forest'
+			? window.localStorage.getItem('theme') === 'coffee'
 			: window.matchMedia('(prefers-color-scheme: dark)').matches;
 
 		if (isDark) {
-			window.localStorage.setItem('theme', 'forest');
-			window.document.documentElement.setAttribute('data-theme', 'forest');
+			window.localStorage.setItem('theme', 'coffee');
+			window.document.documentElement.setAttribute('data-theme', 'coffee');
 		} else {
-			window.localStorage.setItem('theme', 'garden');
-			window.document.documentElement.setAttribute('data-theme', 'garden');
+			window.localStorage.setItem('theme', 'retro');
+			window.document.documentElement.setAttribute('data-theme', 'retro');
 		}
 	</script>
 

@@ -8,8 +8,8 @@ export const settings = {
 	descriptionShort: `Hello, I'm Mahmood, a full stack developer passionate about crafting functional
 	websites and apps. I specialize in database, backend, frontend design, AB testing, CI/CD, and DevOps.`,
 	themes: {
-		light: 'garden',
-		dark: 'forest'
+		light: 'retro',
+		dark: 'coffee'
 	},
 	links: {
 		github: 'https://github.com/MahmoodKhalil57',
